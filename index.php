@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- 
+	Done By Fortas Abdeldjalil
+-->
 	<title>Homework TP PHP 101</title>
 </head>
 <body>
@@ -13,7 +16,8 @@
 </form>
 <hr>
 <?php 
-echo "The Area is: ".($_POST["hgt"]*$_POST["wdt"]);
+echo "The Area is: ".($_POST["hgt"]*$_POST["wdt"])."<br>";
+echo "The perimeter is: ".(2*($_POST["hgt"]+$_POST["wdt"]));
 ?>
 </body>
 </html>
